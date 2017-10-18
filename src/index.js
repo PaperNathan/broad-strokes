@@ -7,17 +7,13 @@ import {
   } from 'react-router-dom';
 
 import Layout from './components/layout/Layout';
-import Nav from './components/nav/Nav';
-import Footer from './components/footer/Footer';
 import registerServiceWorker from './registerServiceWorker';
 
 const Root = () => {
     return (
         <Router>
             <div>
-                <Nav />
-                <Route path="/" component={Layout}/>
-                <Footer />
+                <Route path="/" component={Layout} />
             </div>
         </Router>
     )

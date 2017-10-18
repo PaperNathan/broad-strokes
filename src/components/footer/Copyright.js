@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-const date = new Date();
+const Copyright = styled.div`
+    width: 100%;
+    height: 20px;
 
-class Copyright extends Component {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: white;
 
-  render() {
-    return (
-        <div className="copyright">
-            <p className="copyright-text">
-                ©{date.getFullYear()} Company Name - All Rights Reserved
-            </p>
-        </div>
-    )
-  }
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}`;
 
-export default Copyright;
+export { Copyright };
