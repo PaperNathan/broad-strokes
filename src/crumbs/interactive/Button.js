@@ -30,10 +30,11 @@ const Flip = styled.div`{
     }
 }`
 
-const Button = styled.button`
+const Button = styled.a`
     height: 40px;
     width: 200px;
     margin: 10px 10px;
+    display: block;
 
     border: 1px solid white;
     perspective: 1000px;

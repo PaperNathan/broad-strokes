@@ -22,21 +22,15 @@ class Layout extends Component {
 
           <ButtonContainer>
 
-            <Button>
+            <Button href="https://github.com/PaperNathan/broad-strokes/blob/master/README.md">
               <Flip>
                 <NormalText>DOCS</NormalText>
               </Flip>
             </Button>
 
-            <Button>
+            <Button href="https://github.com/PaperNathan/broad-strokes">
               <Flip>
                 <NormalText>GITHUB</NormalText>
-              </Flip>
-            </Button>
-
-            <Button>
-              <Flip>
-                <NormalText>OTHER</NormalText>
               </Flip>
             </Button>
 
