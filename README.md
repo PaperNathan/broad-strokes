@@ -32,7 +32,7 @@ This template is built so you can easily replace or add elements.  It is structu
     - Allows for smaller elements to be reused site-wide.
 
 
-### index.html
+### A Note On index.html
 
 index.html *(public/index.html)* can be used to add additional cdn's or additional header information.
 
