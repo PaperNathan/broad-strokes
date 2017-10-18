@@ -1,6 +1,3 @@
-           
-
-
 Broadstrokes is an adaptive HTML template.  It's designed to be a modular coding
 UI Kit.
 
@@ -12,7 +9,7 @@ The goals are:
 
 
 
--.,_,.-*^*-.,_,.-*^*-.,_,.-*^*-.,_,.- HTML -.,_,.-*^*-.,_,.-*^*-.,_,.-*^*-.,_,.-
+-=-=-=- HTML -=-=-=-
 
 
 This template is built so you can easily replace or add elements.  It is structured 
@@ -71,7 +68,7 @@ elements you may create but isn't immutable.  The structure is:
 
 
 
--.,_,.-*^*-.,_,.-*^*-.,_,.-*^*-.,_,.- SASS -.,_,.-*^*-.,_,.-*^*-.,_,.-*^*-.,_,.-
+-=-=-=- SASS -=-=-=-
 
 
 Open a new terminal window and being watching your Sass with:
@@ -95,7 +92,7 @@ CSS files are meant to be overwritten with your own custom CSS.
 
 
 
--.,_,.-*^*-.,_,.-*^*-.,_,.-*^*-.,_,.- JAVASCRIPT -.,_,.-*^*-.,_,.-*^*-.,_,.-*^*-.,_,.-
+-=-=-=- JAVASCRIPT -=-=-=-
 
 
 * helpers.js (./public/helpers.js)
