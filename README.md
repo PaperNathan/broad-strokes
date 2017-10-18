@@ -1,4 +1,7 @@
-**Broadstrokes** is an adaptive HTML template.  It's designed to be a modular coding
+# Broad Strokes
+
+
+**Broad Strokes** is an adaptive HTML template.  It's designed to be a modular coding
 UI Kit.
 
 The goals are:
@@ -37,7 +40,7 @@ into four pieces that magnify individual parts.
 
 ### index.html
 
-index.html (public/index.html) can be used to add additional cdn's or additional
+index.html *(public/index.html)* can be used to add additional cdn's or additional
 header information.
 
 
@@ -52,14 +55,14 @@ Crumbs are elements used by the entire site.  Crumbs are are not dependencies of
 build files.  The Crumbs folder structure has been organized to cover a variety of 
 elements you may create but isn't immutable.  The structure is:
 
-* av (src/crumbs/av)
+* av *(src/crumbs/av)*
      - For Audio, Video, and Canvas elements.
 
-* formatting (src/crumbs/formatting)
+* formatting *(src/crumbs/formatting)*
      - For Static and Text elements.
 
-* interactive (src/crumbs/interactive)
-     - For elements that require user interaction/input.  (e.g. Buttons, Input Fields, Text Areas, etc...)
+* interactive *(src/crumbs/interactive)*
+     - For elements that require user interaction/input.  *(e.g. Buttons, Input Fields, Text Areas, etc...)*
 
 
 ## SASS
