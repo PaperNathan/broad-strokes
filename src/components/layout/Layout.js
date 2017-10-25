@@ -8,7 +8,7 @@ import Footer from './../footer/Footer';
 //import crumbs (independently styled elements)
 import { Container } from './Container';
 import { NormalText, BrushText, Title } from './../../crumbs/formatting/Text';
-import { Button, ButtonContainer, Flip } from "./../../crumbs/interactive/Button";
+import { Button, ButtonContainer } from "./../../crumbs/interactive/Button";
 
 import logo from './../../logo.svg';
 
@@ -22,16 +22,16 @@ class Layout extends Component {
 
           <ButtonContainer>
 
-            <Button href="https://github.com/PaperNathan/broad-strokes/blob/master/README.md">
-              <Flip>
+            <Button flip href="https://github.com/PaperNathan/broad-strokes/blob/master/README.md">
                 <NormalText>DOCS</NormalText>
-              </Flip>
             </Button>
 
-            <Button href="https://github.com/PaperNathan/broad-strokes">
-              <Flip>
+            <Button flip href="https://github.com/PaperNathan/broad-strokes">
                 <NormalText>GITHUB</NormalText>
-              </Flip>
+            </Button>
+
+            <Button shiftcolor href="#">
+                <NormalText>STYLED TEST</NormalText>
             </Button>
 
           </ButtonContainer>

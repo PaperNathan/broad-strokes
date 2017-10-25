@@ -15,26 +15,10 @@ const ButtonContainer = styled.div`{
     }
 }`
 
-const Flip = styled.div`{
-    height: 100%;
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    transition: .3s;
-
-    p {
-        color: white;
-    }
-}`
-
 const Button = styled.a`
     height: 40px;
     width: 200px;
     margin: 10px 10px;
-    display: block;
 
     border: 1px solid white;
     perspective: 1000px;
@@ -44,23 +28,43 @@ const Button = styled.a`
 
     transition: all .3s;
 
+    > p {
+        height: 100%;
+        width: 100%;
+        color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: all .3s;
+    }
+
     :hover {
         cursor: pointer;
         background-color: rgba(255, 255, 255, 1);
         transition: all .3s;
-
-        > div {
-            transform: rotateX(180deg);
-            transition: .3s;
-            > p {
-                color: orange;
-            }
+        > p {
+            color: orange;
         }
     }
+
+    ${(props) => props.flip ? `
+        :hover > p {
+            transform: rotateX(180deg);
+            transition: .3s;
+        }
+    ` : ''};
+
+    ${(props) => props.shiftcolor ? `
+        :hover {
+            background-color: rgba(255, 0, 0, 1);
+        }
+    ` : ''};
 
     @media only screen and (min-device-width: 767px) {
         margin: 30px 10px;
     }
 }`;
 
-export { Button, ButtonContainer, Flip };
+export { Button, ButtonContainer };
